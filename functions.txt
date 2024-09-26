@@ -8,6 +8,6 @@ micro -i package ou micro install package
 - procurar no repositório local (arquivos sources)
 - listar as dependencias (e verificar se estão instaladas (depois resolver isso))
 - puxar o link do pacote e de suas dependencias
-- baixar
+- baixar (guardar cache dos pacotes, caso falhe)
 - instalar suas dependencias primeiro e depois o pacote, com base no arquivo sources
 - mostrar o pacote instalado.
