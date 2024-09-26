@@ -1,0 +1,13 @@
+MICRO-PM
+
+Função de instalar:
+
+micro -i package ou micro install package
+
+- precisa ler o nome do pacote que o usuário pediu e a variável, que no caso é '-i' ou 'install'
+- procurar no repositório local (arquivos sources)
+- listar as dependencias (e verificar se estão instaladas (depois resolver isso))
+- puxar o link do pacote e de suas dependencias
+- baixar
+- instalar suas dependencias primeiro e depois o pacote, com base no arquivo sources
+- mostrar o pacote instalado.
